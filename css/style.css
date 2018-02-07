@@ -192,7 +192,7 @@ h4 {
   background-color: #dc2831;
   position: fixed;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 786px) {
   /* line 121, ../sass/_layout.sass */
   .navbar-custom {
     height: 3.5em;
@@ -208,7 +208,7 @@ h4 {
 .navbar-brand img {
   height: 2.5em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 786px) {
   /* line 132, ../sass/_layout.sass */
   .navbar-brand img {
     height: 2em;
@@ -226,7 +226,7 @@ h4 {
     padding: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   /* line 138, ../sass/_layout.sass */
   .navbar-nav {
     width: 100%;
@@ -277,8 +277,7 @@ h4 {
   background-color: #a40000;
   box-shadow: inset 0 -3px 0px #f7d766;
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   /* line 169, ../sass/_layout.sass */
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:visited {
     padding: 0.5em 1.2em;
@@ -293,16 +292,20 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 786px) {
   /* line 174, ../sass/_layout.sass */
   .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     border-color: #f7d766;
     padding: 0.6em 10px;
     background-color: transparent;
   }
+  .navbar-toggle{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+  }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 786px) {
   /* line 180, ../sass/_layout.sass */
   .navbar-default .navbar-toggle .icon-bar {
     width: 20px;
@@ -310,7 +313,7 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 786px) {
   /* line 184, ../sass/_layout.sass */
   .navbar-default .navbar-collapse {
     padding: 0;
